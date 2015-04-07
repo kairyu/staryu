@@ -1,1 +1,1 @@
-# staryu
+# STARYÚ

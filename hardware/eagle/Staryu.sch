@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8970,6 +8970,11 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <rectangle x1="-1.45" y1="-2.42" x2="-1.05" y2="-2.18" layer="51" rot="R90"/>
 <rectangle x1="-1.95" y1="-2.42" x2="-1.55" y2="-2.18" layer="51" rot="R90"/>
 <circle x="-2.7" y="2.7" radius="0.2032" width="0" layer="21"/>
+<smd name="EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
+<rectangle x1="-1.45" y1="0.15" x2="-0.15" y2="1.45" layer="31"/>
+<rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31" rot="R270"/>
+<rectangle x1="-1.45" y1="-1.45" x2="-0.15" y2="-0.15" layer="31" rot="R90"/>
+<rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31" rot="R180"/>
 </package>
 <package name="TQFP32-08_MOD">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
@@ -9011,38 +9016,38 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
-<smd name="1" x="-4.2926" y="2.8" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="2" x="-4.2926" y="2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="3" x="-4.2926" y="1.2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="4" x="-4.2926" y="0.4" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="5" x="-4.2926" y="-0.4" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="6" x="-4.2926" y="-1.2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="7" x="-4.2926" y="-2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="8" x="-4.2926" y="-2.8" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="9" x="-2.8" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="10" x="-2" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="11" x="-1.2" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="12" x="-0.4" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="13" x="0.4" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="14" x="1.2" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="15" x="2" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="16" x="2.8" y="-4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="17" x="4.2926" y="-2.8" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="18" x="4.2926" y="-2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="19" x="4.2926" y="-1.2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="20" x="4.2926" y="-0.4" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="21" x="4.2926" y="0.4" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="22" x="4.2926" y="1.2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="23" x="4.2926" y="2" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="24" x="4.2926" y="2.8" dx="1.27" dy="0.4064" layer="1"/>
-<smd name="25" x="2.8" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="26" x="2" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="27" x="1.2" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="28" x="0.4" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="29" x="-0.4" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="30" x="-1.2" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="31" x="-2" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
-<smd name="32" x="-2.8" y="4.2926" dx="0.4064" dy="1.27" layer="1"/>
+<smd name="1" x="-4.2926" y="2.8" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="2" x="-4.2926" y="2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="3" x="-4.2926" y="1.2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="4" x="-4.2926" y="0.4" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="5" x="-4.2926" y="-0.4" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="6" x="-4.2926" y="-1.2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="7" x="-4.2926" y="-2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="8" x="-4.2926" y="-2.8" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="9" x="-2.8" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="10" x="-2" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="11" x="-1.2" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="12" x="-0.4" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="13" x="0.4" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="14" x="1.2" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="15" x="2" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="16" x="2.8" y="-4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="17" x="4.2926" y="-2.8" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="18" x="4.2926" y="-2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="19" x="4.2926" y="-1.2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="20" x="4.2926" y="-0.4" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="21" x="4.2926" y="0.4" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="22" x="4.2926" y="1.2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="23" x="4.2926" y="2" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="24" x="4.2926" y="2.8" dx="1.27" dy="0.4064" layer="1" cream="no"/>
+<smd name="25" x="2.8" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="26" x="2" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="27" x="1.2" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="28" x="0.4" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="29" x="-0.4" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="30" x="-1.2" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="31" x="-2" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
+<smd name="32" x="-2.8" y="4.2926" dx="0.4064" dy="1.27" layer="1" cream="no"/>
 <text x="-2.7686" y="5.08" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-3.0226" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
@@ -11365,7 +11370,7 @@ Source: murata.co.jp</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value=""/>
-<attribute name="CREVISION" value="1.5"/>
+<attribute name="CREVISION" value="1.6"/>
 <attribute name="DESIGNER" value="Kai Ryu"/>
 </part>
 <part name="U1" library="atmega32u2" deviceset="ATMEGA32U2" device="-TQFP_MOD" value="ATMEGA32U2-TQFP_MOD"/>
